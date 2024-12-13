@@ -35,6 +35,7 @@ public class AirplaneController : MonoBehaviour
     {
         isDead = true;
         anim.SetTrigger("Die");
+        GameControl.instance.BirdDied();
     }
 
 }
