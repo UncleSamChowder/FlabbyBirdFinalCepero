@@ -183,7 +183,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.9106665
+  orthographic size: 7.2121334
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -210,7 +210,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -226,6 +226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Airplane '
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -234,21 +242,25 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1204643365
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.930789
+      value: 6.056442
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.282896
+      value: 5.826567
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.9452
+      value: -10.3152
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0512
+      value: 0.8121
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 5c4c34bbdaf6488438f0382906bf5207, type: 3}
       propertyPath: m_LocalPosition.z
@@ -375,7 +387,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.34106147, y: 0.40190893}
+    - - {x: -0.057579495, y: 0.35118994}
+      - {x: -0.34106147, y: 0.40190893}
       - {x: -0.37728336, y: 0.2685464}
       - {x: -0.25003904, y: 0.18456393}
       - {x: 0.105953455, y: 0.16463143}
@@ -383,6 +396,7 @@ PolygonCollider2D:
       - {x: 0.41, y: 0.19999999}
       - {x: 0.42358324, y: 0.2519856}
       - {x: 0.3891724, y: 0.30572677}
+      - {x: 0.14719728, y: 0.32928962}
       - {x: -0.033544265, y: 0.3468897}
   m_UseDelaunayMesh: 0
 --- !u!114 &1178572324
@@ -497,7 +511,7 @@ Transform:
   m_GameObject: {fileID: 1720854136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00507, y: 0.4142, z: 0}
+  m_LocalPosition: {x: 0.001, y: 0.403, z: 0}
   m_LocalScale: {x: 0.09947207, y: 0.1676655, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -627,8 +641,8 @@ Transform:
   m_GameObject: {fileID: 1959848703}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: -7.57, z: 0}
-  m_LocalScale: {x: 27.036142, y: 18.828737, z: 1}
+  m_LocalPosition: {x: 0.0944, y: -7.57, z: 0}
+  m_LocalScale: {x: 37.382908, y: 18.828737, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1720854138}
